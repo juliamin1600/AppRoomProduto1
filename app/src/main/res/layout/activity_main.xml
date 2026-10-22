@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/editProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Produto" />
+    <EditText
+        android:id="@+id/editProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Preço" />
+    <EditText
+        android:id="@+id/editProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição" />
+    <Button
+        android:id="@+id/btnInserirProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inserir Produto" />
+    <Button
+        android:id="@+id/btnListarProdutos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listar Produtos" />
+    <TextView
+        android:id="@+id/textListaProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:text="Os produtos aparecerão aqui"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/editBuscarNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome do produto"
+        android:inputType="text"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar" />
+    <Button
+        android:id="@+id/btnExcluirTodos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir Todos" />
+    <EditText
+        android:id="@+id/editAtualizarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID do produto"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/editNovoPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Novo preço"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/btnAtualizarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atualizar Preço" />
+    <EditText
+        android:id="@+id/editProductQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade em estoque"
+        android:inputType="number" />
+</LinearLayout>
